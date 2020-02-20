@@ -20,6 +20,8 @@ plainwhite:
       url: "/my-work"
     - title: Resume
       url: "/assets/resume.pdf" 
+    - title: Fun 
+      url: "/fun"
 
   email: mingxuan_li [at] brown [dot] edu
 
