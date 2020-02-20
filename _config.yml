@@ -1,10 +1,8 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: Mingxuan Li
+author: Mingxuan Li
+email: drmeerkatli@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, this is Mingxuan Li, an active learner and researcher devoted in 
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,17 +10,25 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Mingxuan Li
+  tagline: Adventurer. Learner.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
+  
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/assets/resume.pdf" 
+
+  email: mingxuan_li [at] brown [dot] edu
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    rss: rss
+    twitter: Mingxua05840896
+    github:  drmeerkat
+    linkedIn: in/mingxuan-li
+    # rss: rss
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
