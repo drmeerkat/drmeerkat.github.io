@@ -5,7 +5,7 @@ date:   2020-02-20 01:34:36 +0530
 categories: Bio
 ---
 
-I am a first-year Master's student in Brown University, working with [Prof. Michael Littman][litt] and [Prof. George Konidaris][gkd]. I obtained my B.S from Beihang University, under supervision of [Prof. Jingyuan Wang][jjy].  
+I am a first-year Master's student in [Brown University][brown], working with [Prof. Michael Littman][litt] and [Prof. George Konidaris][gkd]. I obtained my B.S from [Beihang University][buaa], under supervision of [Prof. Jingyuan Wang][jjy].  
   
 My research interest lies in reinforcement learning and deep learning robustness. I studied how to defense adversarial attacks during my undergraduate when I was fancinated about building robust congnitive machine with reliable generalization ability. Then the strong correspondence between cognitive science and reinforcement learning draws my attention. I want to know ***[how we can reliably get so much from so little][cong]*** through the perspective of reinforcement learning, an abstract computational framework.  
   
@@ -15,3 +15,5 @@ More specifically, I am currently focused on learning abstractions and utilizing
 [litt]: http://cs.brown.edu/~mlittman/
 [gkd]: http://cs.brown.edu/people/gdk/
 [jjy]: https://www.bigscity.com/jingyuan-wang/
+[buaa]: https://ev.buaa.edu.cn/
+[brown]: https://www.brown.edu/
