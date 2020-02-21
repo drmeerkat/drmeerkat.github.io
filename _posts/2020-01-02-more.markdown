@@ -14,6 +14,6 @@ permalink: /personal.html
 ![wife](/assets/wife.jpeg)  
 
 - **My favourite animal is meerkat.**
-![meer](/assets/backicon.svg)
+![meer](/assets/backicon.jpg)
 
 - **Shoot me an email if you would like to discuss anything!** 
