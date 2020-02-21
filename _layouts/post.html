@@ -7,11 +7,13 @@ layout: default
     <h2 class="post-title">{{ page.title | escape }}</h2>
   </a>
   <div class="post-meta">
-    <ul class="post-categories">
-      {%- for tag in page.categories -%}
-      <li>{{ tag }}</li>
-      {%- endfor -%}
-    </ul>
+    {%- if post.putcat == true -%}
+      <ul class="post-categories">
+        {%- for tag in page.categories -%}
+        <li>{{ tag }}</li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
     <div class="post-date"><i class="icon-calendar"></i>{{ page.date | date: date_format }}</div>
   </div>
   <div class="post">
@@ -30,8 +32,16 @@ layout: default
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
-  </script>
+    </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments
       powered by Disqus.</a></noscript>
   {%- endif -%}
+  </br>
+  <svg onclick="goBack()" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-circle-left" class="svg-inline--fa fa-chevron-circle-left fa-w-16" width=50px height=50px role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <path  class=" back-button" d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"></path></svg>
+  <script>
+  function goBack() {
+    window.history.back();
+  }
+  </script>
 </div>

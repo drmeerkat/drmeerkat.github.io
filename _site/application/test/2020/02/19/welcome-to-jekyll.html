@@ -5,7 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <title>Setting up my own blog</title>
+<link rel="icon" type="image/svg" href="/assets/meerkat.svg"> 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Setting up my own blog | Mingxuan Li</title>
 <meta name="generator" content="Jekyll v4.0.0" />
@@ -26,11 +28,11 @@
   <body>
     <main class="container">
       <section class="about">
-        <a href="/"><img src="/assets/portfolio.png" alt="Mingxuan Li"></a>
         <h2 id="title">
           <a href="/">Mingxuan Li</a>
         </h2>
         <p class="tagline">Adventurer. Learner.</p>
+        <a href="/"><img src="/assets/portfolio.png" alt="Mingxuan Li"></a>
         <p class="mail">mingxuan_li [at] brown [dot] edu</p>
         <ul class="social"><a href="https://github.com/drmeerkat">
               <li>
@@ -46,15 +48,9 @@
               </li>
             </a></ul><nav class="navigation">
             <ul>
-              
-                <li>
-                  <a href="/my-work">My Work</a>
-                </li>
-              
-                <li>
-                  <a href="/assets/resume.pdf">Resume</a>
-                </li>
-              
+              <li>
+                    <a href="/assets/resume.pdf">Resume</a>
+                  </li><a href="/personal.html">Beyond that...</a>
             </ul>
           </nav><p>&copy;
           2020</p>
@@ -64,9 +60,7 @@
   <a class="post-link" href="/application/test/2020/02/19/welcome-to-jekyll.html">
     <h2 class="post-title">Setting up my own blog</h2>
   </a>
-  <div class="post-meta">
-    <ul class="post-categories"><li>Application</li><li>Test</li></ul>
-    <div class="post-date"><i class="icon-calendar"></i>Feb 19, 2020</div>
+  <div class="post-meta"><div class="post-date"><i class="icon-calendar"></i>Feb 19, 2020</div>
   </div>
   <div class="post">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
@@ -88,7 +82,15 @@
 <p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
 
 
-  </div></div>
+  </div></br>
+  <svg onclick="goBack()" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-circle-left" class="svg-inline--fa fa-chevron-circle-left fa-w-16" width=50px height=50px role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <path  class=" back-button" d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"></path></svg>
+  <script>
+  function goBack() {
+    window.history.back();
+  }
+  </script>
+</div>
 
       </section>
     </main></body>

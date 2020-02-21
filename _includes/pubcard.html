@@ -1,0 +1,25 @@
+<div class='w3-padding-small'>
+    <div class="w3-row hover-shadow pub-box" id="about">
+      <div class="pubcol-left w3-padding-small w3-hide-small">
+        <img src="{{ "/assets/papers/" | append: post.thumb  | relative_url}}" class="w3-round w3-image w3-opacity-min pub-image" alt="Table Setting">
+      </div>
+      
+      <div class="pubcol-right w3-padding-small">
+        <h4 class="pubtitle">{{post.title}}</h4>
+        <div class="w3-row">
+          {%- for attr in post -%}
+            {%- case attr -%}
+              {%- when "conf" -%}
+               <h5 class="no-block">{{post[attr]}} </h5>
+              {%- when "paperlink" -%}
+               <a class="link-bracket" href="{{'assets/papers/' | append: post.paperlink | relative_url}}">[pdf]</a>
+              {%- when "code" -%}
+               <a class="link-bracket" href="{{'https://' | append: post.code }}">[code]</a>
+              {%- when "poster" -%}
+
+            {%- endcase -%}
+          {%- endfor %}
+        </div>
+      </div>
+    </div>
+  </div>

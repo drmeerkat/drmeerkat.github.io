@@ -1,0 +1,11 @@
+---
+layout: post
+title: "JPEG-2000Standard Image I/O Pipeline"
+date:   2019-07-21 01:34:36 +0530
+type: proj
+conf: "Personal Side Project"
+# paperlink: MBPO.pdf
+thumb: lenatest.jpg
+---
+
+Some content

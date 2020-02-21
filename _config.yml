@@ -1,9 +1,10 @@
 title: Mingxuan Li
 author: Mingxuan Li
-email: drmeerkatli@gmail.com
+email: mingxuan_li@brown.edu
 description: > # this means to ignore newlines until "show_exerpts:"
   Hi, this is Mingxuan Li, an active learner and researcher devoted in 
 show_excerpts: true # set to true to show excerpts on the homepage
+# disqus_shortname: true
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -16,12 +17,12 @@ plainwhite:
   sitemap: true # set to true to generate sitemap.xml content
   
   navigation:
-    - title: My Work
-      url: "/my-work"
+    # - title: My Work
+    #   url: "/my-work"
     - title: Resume
       url: "/assets/resume.pdf" 
-    - title: Fun 
-      url: "/fun"
+    - title: Beyond that...
+      url: "/"
 
   email: mingxuan_li [at] brown [dot] edu
 

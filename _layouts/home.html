@@ -8,15 +8,15 @@ layout: default
 
 {{ content }}
 
-{%- if site.posts.size > 0 -%}
-  <ul class="posts">
-    <li>
-      <h1 id="posts-label">posts</h1>
-    </li>
+<ul class="posts">
+  <li>
+    <h1 id="posts-label">Short Bio</h1>
+  </li>
 
-    {%- for post in site.posts -%}
+  {%- for post in site.posts -%}
+    {%- if post.title == 'Short Bio' -%}
       <li>
-        {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+        <!-- {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
         <a class="post-link" href="{{ post.url | relative_url }}">
           <h2 class="post-title">{{ post.title | escape }}</h2>
         </a>
@@ -29,17 +29,41 @@ layout: default
           <div class="post-date">
             <i class="icon-calendar"></i>
             {{ post.date | date: date_format }}</div>
-        </div>
+        </div> -->
         <div class="post">
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
         </div>
       </li>
-    {%- endfor -%}
-  </ul>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
 
-  <!-- <p class="feed-subscribe"><svg class="svg-icon orange">
-		<use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-	</svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p> -->
-{%- endif -%}
+<ul class="posts">
+  <li>
+    <h1 id="posts-label">Publications</h1>
+  </li>
+  {%- for post in site.posts -%}
+    {%- if post.type == 'pub' -%}
+      {%- include pubcard.html -%}
+    {%- endif -%}
+  {%- endfor -%}
+  
+  
+  <!-- <hr> -->
+
+</ul>
+
+<ul class="posts">
+  <li>
+    <h1 id="posts-label">Projects</h1>
+  </li>
+  {%- for post in site.posts -%}
+    {%- if post.type == 'proj' -%}
+      {%- include pubcard.html -%}
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
+
+
