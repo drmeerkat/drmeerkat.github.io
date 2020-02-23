@@ -6,6 +6,27 @@
       
       <div class="pubcol-right w3-padding-small">
         <h4 class="pubtitle">{{post.title}}</h4>
+        <!-- {{post.categories}} -->
+        
+        <!-- {%- if tag == Mingxuan -%} -->
+        {%- for name in post.Authors -%}
+
+          {%- if name == "Mingxuan Li" or name == "Mingxuan Li*"-%}
+            <h4 style="display:inline; font-weight: bold;">
+              {{ name |append:','}} 
+            </h4>
+          {%- elsif name == post.Authors[-1] -%}
+            <h4 style="display:inline;">
+              {{ name }}
+            </h4>
+          {%- else -%}
+          <h4 style="display:inline;">
+            {{ name|append:',' }}
+          </h4>
+          {%- endif -%}
+        {%- endfor -%}
+            <!-- {%- endif -%} -->
+        
         <div class="w3-row">
           {%- for attr in post -%}
             {%- case attr -%}
@@ -14,11 +35,14 @@
               {%- when "paperlink" -%}
                <a class="link-bracket" href="{{'assets/papers/' | append: post.paperlink | relative_url}}">[pdf]</a>
               {%- when "code" -%}
-               <a class="link-bracket" href="{{'https://' | append: post.code }}">[code]</a>
+               <a class="link-bracket" href="{{ post.code }}">[code]</a>
               {%- when "poster" -%}
-
-            {%- endcase -%}
-          {%- endfor %}
+              {%- when "video" -%}
+              <a class="link-bracket" href="{{ post.video }}">[video]</a>
+              {%- endcase -%}
+              {%- endfor %}
+          <h5 >{{post.Note}} </h5>
+        
         </div>
       </div>
     </div>

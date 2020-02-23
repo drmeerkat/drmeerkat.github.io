@@ -7,4 +7,10 @@ type: pub
 conf: "Preprint(Under Review)"
 # paperlink: MBPO.pdf
 thumb: gred.png
+Authors: 
+    - "Mingxuan Li"
+    - "Jingyuan Wang" 
+    - "Yufan Wu" 
+    - "Shuchang Zhou" 
+    - "Chao Li"
 ---

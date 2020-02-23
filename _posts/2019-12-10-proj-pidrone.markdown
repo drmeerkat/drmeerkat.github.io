@@ -7,7 +7,8 @@ conf: "Course Project"
 # paperlink: MBPO.pdf
 thumb: updated_background.jpg
 # code: github.com/drmeerkat
-# video: 
+video: https://youtu.be/yRvDyIay6Qc
+Note: "Highlights: Assembled hardware from scratch! Supports ROS, PID and SLAM! (Due to the course policy, I cannot post code online.)"
 ---
 
 Some content

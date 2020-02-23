@@ -7,6 +7,13 @@ type: pub
 conf: "Preprint(Under Review)"
 # paperlink: MBPO.pdf
 thumb: kdd-xe.png
+Authors: 
+    - "Jingyuan Wu"
+    - "Yufan Wu"
+    - "Mingxuan Li"
+    - "Xin Lin"
+    - "Junjie Wu"
+    - "Chao Li"
 ---
 
 Some content
