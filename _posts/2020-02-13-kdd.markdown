@@ -8,7 +8,7 @@ conf: "Preprint(Under Review)"
 # paperlink: MBPO.pdf
 thumb: kdd-xe.png
 Authors: 
-    - "Jingyuan Wu"
+    - "Jingyuan Wang"
     - "Yufan Wu"
     - "Mingxuan Li"
     - "Xin Lin"
