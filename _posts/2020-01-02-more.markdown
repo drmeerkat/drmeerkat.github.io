@@ -7,13 +7,13 @@ putcat: false
 permalink: /personal.html
 ---
 - **I enjoy basketball, hiking, Nintendo, ping-pong and calligraphy.**
-![cali](/assets/cali.jpeg)
+![calligraphy](/assets/cali.jpeg)
 <center><h5 style=" ">一亭秋月啸松风 --拙政园 松风水阁</h5></center>
 
 - **I am lucky enough to have Lilian as my wife.**  
 ![wife](/assets/wife.jpeg)  
 
 - **My favourite animal is meerkat.**
-<img src="{{ "/assets/backicon.svg" | relative_url }}" alt="{{ site.plainwhite.name }}" width=50px height=50px>
+![meerkat](/assets/meer.png)
 
 - **Shoot me an email if you would like to discuss anything!** 
