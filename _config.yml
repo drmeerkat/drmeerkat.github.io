@@ -60,6 +60,8 @@ plainwhite:
 # Build settings
 theme: plainwhite
 
+google_analytics_key: UA-158807702-1
+
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
