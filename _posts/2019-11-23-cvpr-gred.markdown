@@ -5,7 +5,7 @@ An Input Sensitivity Guided Method"
 date:   2020-02-20 01:34:36 +0530
 type: pub
 conf: "Preprint(Under Review)"
-# paperlink: MBPO.pdf
+paperlink: https://arxiv.org/abs/2002.12527
 thumb: gred.png
 Authors: 
     - "Mingxuan Li"
