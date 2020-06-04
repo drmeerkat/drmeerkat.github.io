@@ -3,7 +3,8 @@ layout: post
 title: "Replication of 'When to Trust Your Model: Model-Based Policy Optimization'"
 date: 2020-02-20 01:34:36 +0530
 type: pub
-conf: "NIPS 2019 Reproducbility Challenge (Under Review)"
+confl: "NeurIPS 2019 Reproducbility Challenge (Under Review)"
+clink: https://reproducibility-challenge.github.io/neurips2019/
 paperlink: /assets/papers/MBPO.pdf
 thumb: test.png
 Authors:

@@ -1,28 +1,28 @@
 <div class='w3-padding-small'>
     <div class="w3-row hover-shadow pub-box" id="about">
-      <div class="pubcol-left w3-padding-small w3-hide-small">
+      <div class="pubcol-left  w3-hide-small">
         <img src="{{ "/assets/papers/" | append: post.thumb  | relative_url}}" class="w3-round w3-image w3-opacity-min pub-image" alt="Table Setting">
       </div>
       
-      <div class="pubcol-right w3-padding-small">
-        <h4 class="pubtitle">{{post.title}}</h4>
+      <div class="pubcol-right ">
+        <h5 class="pubtitle">{{post.title}}</h5ß>
         <!-- {{post.categories}} -->
         
         <!-- {%- if tag == Mingxuan -%} -->
         {%- for name in post.Authors -%}
 
           {%- if name == "Mingxuan Li" or name == "Mingxuan Li*"-%}
-            <h4 style="display:inline; font-weight: bold;">
+            <h5 style="display:inline; font-weight: bold;">
               {{ name |append:','}} 
-            </h4>
+            </h5>
           {%- elsif name == post.Authors[-1] -%}
-            <h4 style="display:inline;">
+            <h5 style="display:inline;">
               {{ name }}
-            </h4>
+            </h5>
           {%- else -%}
-          <h4 style="display:inline;">
+          <h5 style="display:inline;">
             {{ name|append:',' }}
-          </h4>
+          </h5>
           {%- endif -%}
         {%- endfor -%}
             <!-- {%- endif -%} -->
@@ -32,6 +32,8 @@
             {%- case attr -%}
               {%- when "conf" -%}
                <h5 class="no-block">{{post[attr]}} </h5>
+              {%- when "confl" -%}
+               <a class="no-block no-block-link" href="{{post.clink}}">{{post[attr]}}</a>
               {%- when "paperlink" -%}
                <a class="link-bracket" href="{{post.paperlink}}">[pdf]</a>
               {%- when "code" -%}

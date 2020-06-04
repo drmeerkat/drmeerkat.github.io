@@ -13,7 +13,7 @@ permalink: /personal.html
 - **I am lucky enough to have Lilian as my wife.**  
 ![wife](/assets/wife.jpeg)  
 
-- **My favourite animal is meerkat.**
+- **My favourite animal is**
 ![meerkat](/assets/meer.png)
 
 - **Shoot me an email if you would like to discuss anything!** 
