@@ -9,7 +9,7 @@ I am a first-year Master's student in [Brown University][brown], working with [P
   
 My research interest lies in reinforcement learning and deep learning robustness. I studied how to defense adversarial attacks during my undergraduate when I was fascinated about learning robust cognitive machine with reliable generalization ability and low sample complexity. I want to know ***[how we can get so much from so little][cong]*** through the perspective of reinforcement learning, an abstract computational framework.  
   
-More specifically, I am currently focused on learning abstractions and utilizing the relational structure of obervations to achieve generalizable sample efficient agent.
+More specifically, I am currently focused on learning abstractions and utilizing the relational structure of observations to achieve generalizable sample efficient agent.
 
 [cong]: http://web.mit.edu/cocosci/josh.html
 [litt]: http://cs.brown.edu/~mlittman/
