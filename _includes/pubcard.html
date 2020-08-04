@@ -12,9 +12,15 @@
         {%- for name in post.Authors -%}
 
           {%- if name == "Mingxuan Li" or name == "Mingxuan Li*"-%}
-            <h5 style="display:inline; font-weight: bold;">
-              {{ name |append:','}} 
-            </h5>
+            {%- if name == post.Authors[-1]-%}
+              <h5 style="display:inline; font-weight: bold;">
+                {{ name }} 
+              </h5>
+            {%- else -%}
+              <h5 style="display:inline; font-weight: bold;">
+                {{ name |append:','}} 
+              </h5>
+            {%- endif -%}
           {%- elsif name == post.Authors[-1] -%}
             <h5 style="display:inline;">
               {{ name }}
@@ -36,6 +42,8 @@
                <a class="no-block no-block-link" href="{{post.clink}}">{{post[attr]}}</a>
               {%- when "paperlink" -%}
                <a class="link-bracket" href="{{post.paperlink}}">[pdf]</a>
+              {%- when "posterlink" -%}
+               <a class="link-bracket" href="{{post.posterlink}}">[poster]</a>
               {%- when "code" -%}
                <a class="link-bracket" href="{{ post.code }}">[code]</a>
               {%- when "poster" -%}

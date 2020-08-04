@@ -4,9 +4,9 @@ title: "Interpretability is a Kind of Safety:
 An Interpreter-based Ensemble for Adversary Defense"
 date:   2020-02-20 01:34:36 +0530
 type: pub
-confl: "KDD 2020 (To Appear)"
+confl: "KDD 2020 (Oral)"
 clink: https://www.kdd.org/kdd2020/
-# paperlink: MBPO.pdf
+paperlink: /assets/papers/XEnsemble.pdf
 thumb: kdd-xe.png
 Authors: 
     - "Jingyuan Wang"

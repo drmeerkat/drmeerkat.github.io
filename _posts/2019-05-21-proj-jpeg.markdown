@@ -5,7 +5,7 @@ date:   2019-07-21 01:34:36 +0530
 type: proj
 conf: "Personal Side Project"
 # paperlink: MBPO.pdf
-thumb: lenatest.jpg
+thumb: lenatest.png
 code: https://github.com/drmeerkat/JPEG-2000-Image-IO
 Note: A self implemented JPEG standard IO without using standard libraries.
 ---

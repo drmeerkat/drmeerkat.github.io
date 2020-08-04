@@ -426,7 +426,7 @@ main .about img { max-width: 200px; }
 
 .link-bracket:hover { color: #64afff; }
 
-.no-block { font-size: medium; font-weight: bold; display: inline; text-decoration: none; }
+.no-block { font-size: 100%; font-weight: bold; display: inline; text-decoration: none; }
 
 .no-block-link:hover { color: #64afff; }
 
