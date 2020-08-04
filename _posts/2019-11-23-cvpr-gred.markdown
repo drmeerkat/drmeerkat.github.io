@@ -4,7 +4,7 @@ title: "Detecting and Recovering Adversarial Examples:
 An Input Sensitivity Guided Method"
 date:   2020-02-20 01:34:36 +0530
 type: pub
-conf: "Arxiv (Preprint)"
+confl: "Arxiv (Preprint)"
 paperlink: https://arxiv.org/abs/2002.12527
 thumb: gred.png
 Authors: 
