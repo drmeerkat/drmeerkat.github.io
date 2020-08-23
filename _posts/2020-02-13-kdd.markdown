@@ -5,10 +5,12 @@ An Interpreter-based Ensemble for Adversary Defense"
 date:   2020-02-20 01:34:36 +0530
 type: pub
 confl: "KDD 2020 (Oral)"
-clink: https://www.kdd.org/kdd2020/
+clink: https://www.kdd.org/kdd2020
 paperlink: /assets/papers/XEnsemble.pdf
+slidelink: /assets/papers/XEnsemble_slide.pdf
+# video: 
 thumb: kdd-xe.png
-Authors: 
+Authors:
     - "Jingyuan Wang"
     - "Yufan Wu"
     - "Mingxuan Li"
@@ -16,5 +18,4 @@ Authors:
     - "Junjie Wu"
     - "Chao Li"
 ---
-
 Some content

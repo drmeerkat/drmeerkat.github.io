@@ -44,9 +44,10 @@
                <a class="link-bracket" href="{{post.paperlink}}">[pdf]</a>
               {%- when "posterlink" -%}
                <a class="link-bracket" href="{{post.posterlink}}">[poster]</a>
+              {%- when "slidelink" -%}
+               <a class="link-bracket" href="{{post.slidelink}}">[slide]</a>
               {%- when "code" -%}
                <a class="link-bracket" href="{{ post.code }}">[code]</a>
-              {%- when "poster" -%}
               {%- when "video" -%}
               <a class="link-bracket" href="{{ post.video }}">[video]</a>
               {%- endcase -%}
