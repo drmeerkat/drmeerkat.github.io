@@ -5,7 +5,7 @@ date:   2020-05-20 01:34:36 +0530
 type: pub
 confl: "DLRLSS 2020 (Poster)"
 clink: https://dlrl.ca
-paperlink: /assets/papers/Towards_Sample_Efficient_Agents_through_Algorithmic_Alignment.pdf
+paperlink: https://arxiv.org/abs/2008.03229
 posterlink: /assets/papers/RLSSposter.png
 thumb: align.png
 Authors: 
