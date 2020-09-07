@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Detecting and Recovering Adversarial Examples:
-An Input Sensitivity Guided Method"
+title: "Are L2 adversarial examples intrinsically different?"
 date:   2020-02-20 01:34:36 +0530
 type: pub
 confl: "Arxiv (Preprint)"
@@ -10,7 +9,5 @@ thumb: gred.png
 Authors: 
     - "Mingxuan Li"
     - "Jingyuan Wang" 
-    - "Yufan Wu" 
-    - "Shuchang Zhou" 
-    - "Chao Li"
+    - "Yufan Wu"
 ---
