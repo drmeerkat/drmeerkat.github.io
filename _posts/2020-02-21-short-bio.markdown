@@ -5,11 +5,13 @@ date:   2020-02-20 01:34:36 +0530
 categories: Bio
 ---
 
-I am a first-year Master's student in [Brown University][brown], working with [Prof. Michael Littman][litt] and [Prof. George Konidaris][gkd]. I obtained my B.S from [Beihang University][buaa], under supervision of [Prof. Jingyuan Wang][jjy].  
+I am a second-year Master's student in [Brown University][brown], working with [Prof. Michael Littman][litt]. I obtained my B.S from [Beihang University][buaa], under supervision of [Prof. Jingyuan Wang][jjy].  
   
-My research interest lies in reinforcement learning and deep learning robustness. I studied how to defense adversarial attacks during my undergraduate when I was fascinated about learning robust cognitive machine with reliable generalization ability and low sample complexity. I want to know ***[how we can get so much from so little][cong]*** through the perspective of reinforcement learning, an abstract computational framework.  
+My research interest lies in reinforcement learning, especially in how to build reliable generalization and sample efficient agent. I want to know ***[how we can get so much from so little][cong]*** through the intersection of reinforcement learning and cognitive science.  
   
-More specifically, I am currently focused on learning abstractions and utilizing the relational structure of observations to achieve generalizable sample efficient agent.
+Currently, I focus on learning abstractions and utilizing the relational structure of observations to achieve sample efficient agent.
+  
+I am going to apply for 2021 Fall PhD position this semester. Shoot me an email if you have openings! Feel free to take a look at [this slide][slide], which summarizes my take on RL agents.  
 
 [cong]: http://web.mit.edu/cocosci/josh.html
 [litt]: http://cs.brown.edu/~mlittman/
@@ -17,3 +19,4 @@ More specifically, I am currently focused on learning abstractions and utilizing
 [jjy]: https://www.bigscity.com/jingyuan-wang/
 [buaa]: https://ev.buaa.edu.cn/
 [brown]: https://www.brown.edu/
+[slide]: https://docs.google.com/presentation/d/1TrWBc4q3eIA7wpnXlfke-8g0FQXIZH0RFPW8lQw2LI4/edit?usp=sharing
