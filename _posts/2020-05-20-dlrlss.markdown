@@ -3,8 +3,8 @@ layout: post
 title: "Towards Sample Efficient Agents through Algorithmic Alignment"
 date:   2020-05-20 01:34:36 +0530
 type: pub
-confl: "DLRLSS 2020 (Poster)"
-clink: https://dlrl.ca
+confl: "In Submission"
+# clink: https://dlrl.ca
 paperlink: https://arxiv.org/abs/2008.03229
 posterlink: /assets/papers/RLSSposter.png
 thumb: align.png
