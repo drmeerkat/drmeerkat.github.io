@@ -3,13 +3,14 @@ layout: post
 title: "Towards Sample Efficient Agents through Algorithmic Alignment"
 date:   2020-05-20 01:34:36 +0530
 type: pub
-confl: "In Submission"
-# clink: https://dlrl.ca
+confl: "AAAI-21 Student Abstract and Poster Program (To Appear)"
+clink: https://aaai.org/Conferences/AAAI-21/student-abstract-call/
 paperlink: https://arxiv.org/abs/2008.03229
 posterlink: /assets/papers/RLSSposter.png
 thumb: align.png
 Authors: 
     - "Mingxuan Li"
+    - "Michael L. Littman"
 ---
 
 Some content
