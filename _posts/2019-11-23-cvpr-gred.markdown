@@ -3,7 +3,7 @@ layout: post
 title: "Are L2 adversarial examples intrinsically different?"
 date:   2020-02-20 01:34:36 +0530
 type: pub
-confl: "In Submission"
+confl: "Arxiv"
 paperlink: https://arxiv.org/abs/2002.12527
 thumb: gred.png
 Authors: 
