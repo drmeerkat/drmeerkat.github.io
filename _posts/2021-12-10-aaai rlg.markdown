@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Learning Generalizable Behavior via Visual Rewrite Rules"
+date:   2021-12-10 01:34:36 +0530
+type: pub
+confl: "AAAI-22 Workshop on Reinforcement Learning in Games"
+clink: http://aaai-rlg.mlanctot.info
+paperlink: https://arxiv.org/abs/2112.05218
+thumb: vrr.png
+Authors:
+    - "Yiheng Xie*"
+    - "Mingxuan Li*"
+    - "Shangqun Yu*"
+    - "Michael L. Littman"
+---
+
+Some content
