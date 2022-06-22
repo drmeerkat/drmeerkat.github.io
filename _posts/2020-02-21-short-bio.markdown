@@ -5,9 +5,9 @@ date:   2020-02-20 01:34:36 +0530
 categories: Bio
 ---
 
-I am an incoming PhD student in [Columbia University][col] working with [Prof. Elias Bareinboim][elias]. Previously, I finished my Master's studies in [Brown University][brown], working with [Prof. Michael Littman][litt]. I obtained my B.S from [Beihang University][buaa], under the supervision of [Prof. Jingyuan Wang][jjy].  
+I am a first-year computer science PhD student in [Columbia University][col] working with [Prof. Elias Bareinboim][elias]. During my wonderful Master's studies in [Brown University][brown], I was fortunate enough to work with [Prof. Michael Littman][litt]. I obtained my B.S from [Beihang University][buaa], under the supervision of [Prof. Jingyuan Wang][jjy].  
   
-My research interest lies in the intersection of causal inference and reinforcement learning, especially in how to build reliable, generalizable and sample efficient agent. Feel free to take a look at [this slide][slide], which summarizes my take on RL agents.  
+My research interest lies in the intersection of causal inference and reinforcement learning, especially in how to build reliable, generalizable and sample efficient agent. 
 
 [elias]: https://causalai.net
 [col]: https://www.columbia.edu
