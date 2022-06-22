@@ -59,7 +59,7 @@ plainwhite:
 # - about.md
 
 # Build settings
-theme: plainwhite
+# theme: plainwhite
 
 google_analytics_key: UA-158807702-1
 
