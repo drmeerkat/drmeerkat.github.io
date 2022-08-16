@@ -5,56 +5,56 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
-            <loc>http://localhost:4000</loc>
+            <loc></loc>
             <lastmod>2019-06-07T00:00:00+00:00</lastmod>
             <priority>1.00</priority>
         </url><url>
-                <loc>http://localhost:4000/2021/12/09/aaai-rlg.html</loc>
+                <loc>/2021/12/09/aaai-rlg.html</loc>
                 <lastmod>2021-12-09T15:04:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/2020/05/19/aaai.html</loc>
+                <loc>/2020/05/19/aaai.html</loc>
                 <lastmod>2020-05-19T16:04:36-04:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/bio/2020/02/19/short-bio.html</loc>
+                <loc>/bio/2020/02/19/short-bio.html</loc>
                 <lastmod>2020-02-19T15:04:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/2020/02/19/kdd.html</loc>
+                <loc>/2020/02/19/kdd.html</loc>
                 <lastmod>2020-02-19T15:04:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/personal.html</loc>
+                <loc>/personal.html</loc>
                 <lastmod>2020-02-19T15:04:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/2020/02/19/nips-reproduce.html</loc>
+                <loc>/2020/02/19/nips-reproduce.html</loc>
                 <lastmod>2020-02-19T15:04:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/2020/02/19/cvpr-gred.html</loc>
+                <loc>/2020/02/19/cvpr-gred.html</loc>
                 <lastmod>2020-02-19T15:04:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/application/test/2020/02/19/welcome-to-jekyll.html</loc>
+                <loc>/application/test/2020/02/19/welcome-to-jekyll.html</loc>
                 <lastmod>2020-02-19T15:04:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/2019/12/09/proj-pidrone.html</loc>
+                <loc>/2019/12/09/proj-pidrone.html</loc>
                 <lastmod>2019-12-09T15:04:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/2019/07/20/proj-jpeg.html</loc>
+                <loc>/2019/07/20/proj-jpeg.html</loc>
                 <lastmod>2019-07-20T16:04:36-04:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>

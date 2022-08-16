@@ -5,16 +5,14 @@ date:   2020-02-20 01:34:36 +0530
 categories: Bio
 ---
 
-I am a first-year computer science PhD student in [Columbia University][col] working with [Prof. Elias Bareinboim][elias]. During my wonderful Master's studies in [Brown University][brown], I was fortunate enough to work with [Prof. Michael Littman][litt]. I obtained my B.S from [Beihang University][buaa], under the supervision of [Prof. Jingyuan Wang][jjy].  
+I am a second-year computer science PhD student in the [Causal Artificial Intelligence Lab][clab] at [Columbia University][col] working with [Prof. Elias Bareinboim][elias]. During my wonderful Master's studies in [Brown University][brown], I was fortunate enough to work with [Prof. Michael Littman][litt]. I obtained my B.S from [Beihang University][buaa], under the supervision of [Prof. Jingyuan Wang][wjy].  
   
 My research interest lies in the intersection of causal inference and reinforcement learning, especially in how to build reliable, generalizable and sample efficient agent. 
 
+[clab]: https://causalai.net
 [elias]: https://causalai.net
 [col]: https://www.columbia.edu
-[cong]: http://web.mit.edu/cocosci/josh.html
 [litt]: http://cs.brown.edu/~mlittman/
-[gkd]: http://cs.brown.edu/people/gdk/
-[jjy]: https://www.bigscity.com/jingyuan-wang/
+[wjy]: https://www.bigscity.com/jingyuan-wang/
 [buaa]: https://ev.buaa.edu.cn/
 [brown]: https://www.brown.edu/
-[slide]: https://docs.google.com/presentation/d/1TrWBc4q3eIA7wpnXlfke-8g0FQXIZH0RFPW8lQw2LI4/edit?usp=sharing

@@ -1,8 +1,8 @@
-title: Mingxuan Li
-author: Mingxuan Li
-email: mingxuan_li@brown.edu
-description: > # this means to ignore newlines until "show_exerpts:"
-  Hi, this is Mingxuan Li, an active learner and researcher devoted in 
+# title: Mingxuan Li
+# author: Mingxuan Li
+# email: mingxuan_li@cs.columbia.edu
+# description: > # this means to ignore newlines until "show_exerpts:"
+  # Hi, this is Mingxuan Li, an active learner and researcher devoted in 
 show_excerpts: true # set to true to show excerpts on the homepage
 # disqus_shortname: true
 
@@ -12,7 +12,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Mingxuan Li
-  tagline: Adventurer. Learner.
+  tagline: In my end is my beginning.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   
@@ -24,7 +24,7 @@ plainwhite:
     - title: Beyond that...
       url: "/"
 
-  email: ml [at] cs [dot] columbia [dot] edu
+  email: ml@cs.columbia.edu
 
   # generate social links in footer
   social_links:
