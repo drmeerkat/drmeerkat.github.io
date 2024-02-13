@@ -1,0 +1,21 @@
+current directory: /Users/ml/Development/web/myblog/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/ml/Development/web/myblog/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240212-13364-qmvujl sitelibdir\=./.gem.20240212-13364-qmvujl clean
+
+current directory: /Users/ml/Development/web/myblog/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240212-13364-qmvujl sitelibdir\=./.gem.20240212-13364-qmvujl
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/ml/Development/web/myblog/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240212-13364-qmvujl sitelibdir\=./.gem.20240212-13364-qmvujl install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20240212-13364-qmvujl
+
+current directory: /Users/ml/Development/web/myblog/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240212-13364-qmvujl sitelibdir\=./.gem.20240212-13364-qmvujl clean
