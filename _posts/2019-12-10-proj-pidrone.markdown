@@ -8,7 +8,7 @@ conf: "Course Project"
 thumb: updated_background.png
 # code: github.com/drmeerkat
 video: https://youtu.be/yRvDyIay6Qc
-Note: "Highlights: Assembled hardware from scratch! Supports ROS, PID and SLAM! (Due to the course policy, I cannot post code online.)"
+Note: "Assembled hardware from scratch. Supports ROS, PID and SLAM!"
 ---
 
 Some content
