@@ -37,11 +37,11 @@
           {%- for attr in post -%}
             {%- case attr -%}
               {%- when "conf" -%}
-               <h5 class="no-block">{{post[attr]}} </h5>
+               <h5 class="no-block">{{post[attr]}}</h5>
               {%- when "confl" -%}
                <a class="no-block no-block-link" href="{{post.clink}}">{{post[attr]}}</a>
               {%- when "paperlink" -%}
-               <a class="link-bracket" href="{{post.paperlink}}">[pdf]</a>
+               <a class="link-bracket" href="{{post.paperlink}}"> [pdf]</a>
               {%- when "posterlink" -%}
                <a class="link-bracket" href="{{post.posterlink}}">[poster]</a>
               {%- when "slidelink" -%}
