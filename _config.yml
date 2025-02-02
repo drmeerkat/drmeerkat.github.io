@@ -13,7 +13,7 @@ sass:
 markdown: kramdown
 plainwhite:
   name: Mingxuan Li
-  tagline: In my end is my beginning.
+  tagline: #In my end is my beginning.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   
