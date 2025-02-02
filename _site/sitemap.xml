@@ -9,6 +9,11 @@
             <lastmod>2019-06-07T00:00:00+00:00</lastmod>
             <priority>1.00</priority>
         </url><url>
+                <loc>http://localhost:4000/blog/causal-curriculum.html</loc>
+                <lastmod>2024-07-21T16:04:36-04:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
                 <loc>http://localhost:4000/2024/02/12/iclr-causal-curriculum.html</loc>
                 <lastmod>2024-02-12T02:04:36-05:00</lastmod>
                 <changefreq>weekly</changefreq>

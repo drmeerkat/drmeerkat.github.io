@@ -1,11 +1,12 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <div class='w3-padding-small'>
     <div class="w3-row hover-shadow pub-box" id="about">
       <div class="pubcol-left  w3-hide-small">
-        <img src="{{ "/assets/papers/" | append: post.thumb  | relative_url}}" class="w3-round w3-image w3-opacity-min pub-image" alt="Table Setting">
+        <img src="{{ '/assets/papers/' | append: post.thumb  | relative_url}}" class="w3-round w3-image w3-opacity-min pub-image" alt="Table Setting">
       </div>
       
       <div class="pubcol-right ">
-        <h5 class="pubtitle">{{post.title}}</h5ß>
+        <h5 class="pubtitle">{{post.title}}</h5>
         <!-- {{post.categories}} -->
         
         <!-- {%- if tag == Mingxuan -%} -->
@@ -43,13 +44,15 @@
               {%- when "paperlink" -%}
                <a class="link-bracket" href="{{post.paperlink}}"> [pdf]</a>
               {%- when "posterlink" -%}
-               <a class="link-bracket" href="{{post.posterlink}}">[poster]</a>
+               <a class="link-bracket" href="{{post.posterlink}}"> [poster]</a>
+              {%- when "bloglink" -%}
+               <a class="link-bracket" href="{{ post.bloglink }}"> [blog]</a>
               {%- when "slidelink" -%}
-               <a class="link-bracket" href="{{post.slidelink}}">[slide]</a>
+               <a class="link-bracket" href="{{post.slidelink}}"> [slide]</a>
               {%- when "code" -%}
-               <a class="link-bracket" href="{{ post.code }}">[code]</a>
+               <a class="link-bracket" href="{{ post.code }}"> [code]</a>
               {%- when "video" -%}
-              <a class="link-bracket" href="{{ post.video }}">[video]</a>
+              <a class="link-bracket" href="{{ post.video }}"> [video]</a>
               {%- endcase -%}
               {%- endfor %}
           <h5 >{{post.Note}} </h5>

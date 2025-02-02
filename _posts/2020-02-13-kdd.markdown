@@ -8,7 +8,7 @@ confl: "KDD-20 (Oral)"
 clink: https://www.kdd.org/kdd2020
 paperlink: https://dl.acm.org/doi/abs/10.1145/3394486.3403044
 slidelink: /assets/papers/XEnsemble_slide.pdf
-video: https://youtu.be/Oq7e3spuLlY
+# video: https://youtu.be/Oq7e3spuLlY
 thumb: kdd-xe.png
 Authors:
     - "Jingyuan Wang"
