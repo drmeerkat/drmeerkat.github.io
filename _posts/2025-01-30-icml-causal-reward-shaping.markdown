@@ -3,7 +3,7 @@ layout: post
 title: "Automatic Reward Shaping from Confounded Offline Data"
 date:   2025-01-30 23:34:36 +0530
 type: pub
-confl: "In Submission"
+confl: "ICML-25"
 # clink: https://iclr.cc/Conferences/2024
 paperlink: https://causalai.net/r123.pdf
 # bloglink: /blog/causal-curriculum.html
