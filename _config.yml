@@ -20,7 +20,7 @@ plainwhite:
   navigation:
     # - title: My Work
     #   url: "/my-work"
-    - title: CV (Jan. 2025)
+    - title: CV (May. 2025)
       url: "/assets/resume.pdf" 
     - title: Beyond that...
       url: "/"
