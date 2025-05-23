@@ -2,11 +2,11 @@
 <div class='w3-padding-small'>
     <div class="w3-row hover-shadow pub-box" id="about">
       <div class="pubcol-left  w3-hide-small">
-        <img src="{{ '/assets/papers/' | append: post.thumb  | relative_url}}" style="max-width: 100%; height: auto;" class="w3-round w3-image w3-opacity-min pub-image" alt="Table Setting">
+        <img src="{{ '/assets/papers/' | append: post.thumb  | relative_url}}" style="max-width: 100%; height: auto;" class="w3-round w3-image pub-image" alt="Table Setting">
       </div>
       
       <div class="pubcol-right ">
-        <h5 class="pubtitle">{{post.title}}</h5>
+        <h5 class="pubtitle" style="font-weight: bold;">{{post.title}}</h5>
         <!-- {{post.categories}} -->
         
         <!-- {%- if tag == Mingxuan -%} -->
@@ -38,25 +38,24 @@
           {%- for attr in post -%}
             {%- case attr -%}
               {%- when "conf" -%}
-               <h5 class="no-block">{{post[attr]}}</h5>
-              {%- when "confl" -%}
-               <a class="no-block no-block-link" href="{{post.clink}}">{{post[attr]}}</a>
+                <h5 class="no-block">{{post[attr]}}</h5>
+                {%- when "confl" -%}
+                <a class="post" style="font-weight:bold; text-decoration: none; color: rgb(66, 110, 232);" href="{{post.clink}}">{{post[attr]}}</a>
               {%- when "paperlink" -%}
-               <a class="link-bracket" href="{{post.paperlink}}"> [pdf]</a>
+                <a class="link-bracket" href="{{post.paperlink}}"> [pdf]</a>
               {%- when "posterlink" -%}
-               <a class="link-bracket" href="{{post.posterlink}}"> [poster]</a>
+                <a class="link-bracket" href="{{post.posterlink}}"> [poster]</a>
               {%- when "bloglink" -%}
-               <a class="link-bracket" href="{{ post.bloglink }}"> [blog]</a>
+                <a class="link-bracket" href="{{ post.bloglink }}"> [blog]</a>
               {%- when "slidelink" -%}
-               <a class="link-bracket" href="{{post.slidelink}}"> [slide]</a>
+                <a class="link-bracket" href="{{post.slidelink}}"> [slide]</a>
               {%- when "code" -%}
-               <a class="link-bracket" href="{{ post.code }}"> [code]</a>
+                <a class="link-bracket" href="{{ post.code }}"> [code]</a>
               {%- when "video" -%}
-              <a class="link-bracket" href="{{ post.video }}"> [video]</a>
-              {%- endcase -%}
-              {%- endfor %}
+                <a class="link-bracket" href="{{ post.video }}"> [video]</a>
+            {%- endcase -%}
+          {%- endfor %}
           <h5 >{{post.Note}} </h5>
-        
         </div>
       </div>
     </div>
