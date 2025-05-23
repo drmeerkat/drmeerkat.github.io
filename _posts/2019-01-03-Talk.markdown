@@ -5,5 +5,5 @@ date:   2020-02-20 01:34:36 +0530
 categories: Talk
 ---
 
-- Apr. 2025: Talk at Causal Decision Making Seminar
+- Apr. 2025: Talk at NSF Causal Decision Making Seminar
 - Mar. 2025: Guest lecture at UCI CompSci 295, Causal Inference for Reinforcement Learning [[link]](https://ics.uci.edu/~dechter/courses/ics-295cr/2024-25_Q2_Winter/) [[video]](https://youtu.be/svf4nPW4UmM)
