@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Confounding Robust Reinforcement Leanring: A Causal Approach"
+title: "Confounding Robust Reinforcement Learning: A Causal Approach"
 date:   2025-01-30 23:34:36 +0530
 type: pub
 confl: "In Submission"
