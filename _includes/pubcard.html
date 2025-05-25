@@ -6,7 +6,7 @@
       </div>
       
       <div class="pubcol-right ">
-        <h5 class="pubtitle" style="font-weight: bold;">{{post.title}}</h5>
+        <h5 class="pubtitle">{{post.title}}</h5>
         <!-- {{post.categories}} -->
         
         <!-- {%- if tag == Mingxuan -%} -->
@@ -14,20 +14,21 @@
 
           {%- if name == "Mingxuan Li" or name == "Mingxuan Li*"-%}
             {%- if name == post.Authors[-1]-%}
-              <h5 style="display:inline; font-weight: bold;">
+              <h5 class="pubauthor" style="display:inline; font-weight: 600;">
                 {{ name }} 
               </h5>
             {%- else -%}
-              <h5 style="display:inline; font-weight: bold;">
+              <h5 class="pubauthor", style="display:inline; font-weight: 600;">
                 {{ name |append:','}} 
+
               </h5>
             {%- endif -%}
           {%- elsif name == post.Authors[-1] -%}
-            <h5 style="display:inline;">
+            <h5 class="pubauthor", style="display:inline;">
               {{ name }}
             </h5>
           {%- else -%}
-          <h5 style="display:inline;">
+          <h5 class="pubauthor", style="display:inline;">
             {{ name|append:',' }}
           </h5>
           {%- endif -%}
@@ -39,8 +40,8 @@
             {%- case attr -%}
               {%- when "conf" -%}
                 <h5 class="no-block">{{post[attr]}}</h5>
-                {%- when "confl" -%}
-                <a class="post" style="font-weight:bold; text-decoration: none; color: rgb(66, 110, 232);" href="{{post.clink}}">{{post[attr]}}</a>
+              {%- when "confl" -%}
+                <a class="confnames" href="{{post.clink}}">{{post[attr]}}</a>
               {%- when "paperlink" -%}
                 <a class="link-bracket" href="{{post.paperlink}}"> [pdf]</a>
               {%- when "posterlink" -%}

@@ -777,7 +777,7 @@ main .about img {
 .post h4,
 .post h5,
 .post h6 {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .pub-box {
@@ -791,6 +791,26 @@ main .about img {
 
 .pubtitle {
   margin-top: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.pubauthor {
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+}
+
+.confnames {
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  font-weight: 500;
+  color: #0c6ed6;
+  text-decoration: none;
+}
+
+.confnames:hover {
+  color: #64afff;
 }
 
 .link-bracket {
@@ -798,6 +818,7 @@ main .about img {
   font-size: medium;
   padding-right: 3px;
   text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .link-bracket:hover {
