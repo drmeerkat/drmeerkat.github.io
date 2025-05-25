@@ -121,6 +121,7 @@ main {
   }
 }
 #title {
+  font-size: 30px;
   a {
     text-decoration: none;
   }
@@ -265,20 +266,20 @@ main {
 .pubtitle {
   margin-top: 0px;
   // font-family: "Merriweather", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 600;
 }
 
 .pubauthor {
   // font-family: "Merriweather", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: medium;
 }
 
 .confnames {
   // font-weight: bold;
   font-style: italic;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: medium;
   font-weight: 500;
   color: #0c6ed6;
@@ -294,7 +295,7 @@ main {
   font-size: medium;
   padding-right: 3px;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 .link-bracket:hover {
