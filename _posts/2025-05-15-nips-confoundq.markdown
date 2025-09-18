@@ -3,8 +3,8 @@ layout: post
 title: "Confounding Robust Reinforcement Learning: A Causal Approach"
 date:   2025-01-30 23:34:36 +0530
 type: pub
-confl: "In Submission"
-# clink: https://iclr.cc/Conferences/2024
+confl: "NeurIPS-25"
+clink: https://nips.cc/
 paperlink: https://causalai.net/r132.pdf
 # bloglink: /blog/causal-curriculum.html
 # posterlink: https://iclr.cc/virtual/2024/poster/18083
