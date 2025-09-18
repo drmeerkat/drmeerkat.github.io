@@ -17,9 +17,10 @@ layout: default
     {%- if post.title == 'Short Bio' -%}
       <li>
         <div class="post">
-          {%- if site.show_excerpts -%}
+          {{post.content}}
+          <!-- {%- if site.show_excerpts -%}
             {{ post.excerpt }}
-          {%- endif -%}
+          {%- endif -%} -->
         </div>
       </li>
     {%- endif -%}
