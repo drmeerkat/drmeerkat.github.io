@@ -5,7 +5,7 @@ date:   2020-02-20 01:34:36 +0530
 categories: Bio
 ---
 
-I am a Ph.D. candidate in the [Causal Artificial Intelligence Lab][clab] at [Columbia University][col] working with [Prof. Elias Bareinboim][elias]. I also work closely with [Prof. Junzhe Zhang][jz]. Previously, during my Master's studies at [Brown University][brown], I was fortunate enough to work with [Prof. Michael Littman][litt].
+I am a Ph.D. candidate in the [Causal Artificial Intelligence Lab][clab] at [Columbia University][col], working with [Prof. Elias Bareinboim][elias]. I also work closely with [Prof. Junzhe Zhang][jz]. Previously, during my Master's studies at [Brown University][brown], I was fortunate enough to work with [Prof. Michael Littman][litt].
   
 My research interest lies in the intersection of causal inference and reinforcement learning, especially in how to build a causally aligned, generalizable, and sample-efficient agent.
 
