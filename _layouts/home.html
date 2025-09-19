@@ -78,7 +78,25 @@ layout: default
 
 <ul class="posts">
   <li>
-    <h1 id="posts-label">Selected Projects</h1>
+    <h1 id="posts-label">Service and Organization</h1>
+  </li>
+
+  {%- for post in site.posts -%}
+    {%- if post.title == 'Service and Organization' -%}
+      <li>
+        <div class="post">
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+        </div>
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
+
+<ul class="posts">
+  <li>
+    <h1 id="posts-label">Side Projects</h1>
   </li>
   {%- for post in site.posts -%}
     {%- if post.type == 'proj' -%}
