@@ -14,5 +14,5 @@ categories: Service and Organization
   - AISTATS 2025, 2026; 
   - AAAI 2026; 
   - Journal of Machine Learning Research (JMLR);
-  - International Journal of Robotics Research (IJR).
+  - International Journal of Robotics Research (IJRR).
 <!-- - Reviewer: Master’s in Computer Science Program Admission (Columbia University), 2023. -->
