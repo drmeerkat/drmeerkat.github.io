@@ -2,10 +2,13 @@
 <div class='w3-padding-small'>
     <div class="w3-row hover-shadow pub-box" id="about">
       <div class="pubcol-left  w3-hide-small">
-        <img src="{{ '/assets/papers/' | append: post.thumb  | relative_url}}" style="max-width: 100%; height: auto;" class="w3-round w3-image pub-image" alt="Table Setting">
+        <img src="{{ '/assets/papers/' | append: post.thumb  | relative_url}}"
+            style="width: 100%; height: auto; display: block; aspect-ratio: 16/9; background: #ffffff; object-fit: contain; padding: 0;"
+          class="w3-round w3-image pub-image"
+          alt="Table Setting">
       </div>
       
-      <div class="pubcol-right ">
+      <div class="pubcol-right">
         <h5 class="pubtitle">{{post.title}}</h5>
         <!-- {{post.categories}} -->
         
@@ -40,8 +43,8 @@
             {%- case attr -%}
               {%- when "conf" -%}
                 <h5 class="no-block">{{post[attr]}}</h5>
-              {%- when "confl" -%}
-                <a class="confnames" href="{{post.clink}}">{{post[attr]}}</a>
+                {%- when "confl" -%}
+                <a class="confnames" href="{{post.clink}}">{{post[attr]}}</a><span>&nbsp;</span>
               {%- when "paperlink" -%}
                 <a class="link-bracket" href="{{post.paperlink}}"> [pdf]</a>
               {%- when "posterlink" -%}

@@ -9,8 +9,13 @@
             <lastmod>2019-06-07T00:00:00+00:00</lastmod>
             <priority>1.00</priority>
         </url><url>
-                <loc>http://localhost:4000/2025/01/30/nips-confoundq.html</loc>
-                <lastmod>2025-01-30T13:04:36-05:00</lastmod>
+                <loc>http://localhost:4000/2025/10/08/aamas-continuousshaping.html</loc>
+                <lastmod>2025-10-08T14:04:36-04:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
+                <loc>http://localhost:4000/2025/05/15/nips-confoundq.html</loc>
+                <lastmod>2025-05-15T14:04:36-04:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
