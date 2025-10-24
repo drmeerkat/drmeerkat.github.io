@@ -47,6 +47,8 @@
                 <a class="confnames" href="{{post.clink}}">{{post[attr]}}</a><span>&nbsp;</span>
               {%- when "paperlink" -%}
                 <a class="link-bracket" href="{{post.paperlink}}"> [pdf]</a>
+              {%- when "arxiv" -%}
+                <a class="link-bracket" href="{{post.arxiv}}"> [arxiv]</a>
               {%- when "posterlink" -%}
                 <a class="link-bracket" href="{{post.posterlink}}"> [poster]</a>
               {%- when "bloglink" -%}

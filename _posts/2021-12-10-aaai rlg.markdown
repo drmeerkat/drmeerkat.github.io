@@ -5,7 +5,7 @@ date:   2021-12-10 01:34:36 +0530
 type: pub
 confl: "AAAI-22 Workshop on Reinforcement Learning in Games"
 clink: https://rlg.mlanctot.info/2022/index.html
-paperlink: https://arxiv.org/abs/2112.05218
+arxiv: https://arxiv.org/abs/2112.05218
 thumb: vrr.png
 Authors:
     - "Yiheng Xie*"
