@@ -6,7 +6,7 @@ type: pub
 confl: "NeurIPS-25"
 clink: https://nips.cc/
 paperlink: https://openreview.net/pdf?id=9fUr5iFU9j
-# arxiv: 
+arxiv: https://arxiv.org/abs/2510.21110
 # bib: 
 # bloglink: /blog/causal-curriculum.html
 # posterlink: https://iclr.cc/virtual/2024/poster/18083
