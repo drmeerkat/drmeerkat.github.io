@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Confounding Robust Reinforcement Learning: A Causal Approach"
+title: "Confounding Robust Deep Reinforcement Learning: A Causal Approach"
 date:   2025-05-15 23:34:36 +0530
 type: pub
 confl: "NeurIPS-25"
