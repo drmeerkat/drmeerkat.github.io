@@ -5,8 +5,9 @@ date:   2020-02-20 01:34:36 +0530
 categories: News
 ---
 
-- ![New!](../assets/new.gif) Oct. 2025: I have been selected as a "Top Reviewer" (8%, 1958/24429) for NeurIPS 2025!
-- ![New!](../assets/new.gif) Sept. 2025: Our paper [Confounding Robust Reinforcement Learning: A Causal Approach](https://causalai.net/r132.pdf) is accepted at NeurIPS 2025!
+- ![New!](../assets/new.gif) Dec. 2025: Our paper [Confounding Robust Continuous Control via Automatic Reward Shaping](https://openreview.net/forum?id=ZFtjCJqEQf) is accepted at AAMAS 2026!
+- Oct. 2025: I have been selected as a "Top Reviewer" (8%, 1958/24429) for NeurIPS 2025!
+- Sept. 2025: Our paper [Confounding Robust Reinforcement Learning: A Causal Approach](https://causalai.net/r132.pdf) is accepted at NeurIPS 2025!
 -  Aug. 2025: I wrapped up my summer internship at Uber as a Research Scientist.
 - May 2025: Our paper [Automatic Reward Shaping from Confounded Offline Data](https://causalai.net/r123.pdf) is accepted at ICML 2025!
 - April 2025: I am co-organizing the First Causal Reinforcement Learning Workshop at RLC 2025, please submit your work to **[CRLW](https://sites.google.com/uci.edu/crlw2025/)**!
