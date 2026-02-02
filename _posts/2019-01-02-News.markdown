@@ -5,6 +5,7 @@ date:   2020-02-20 01:34:36 +0530
 categories: News
 ---
 
+- ![New!](../assets/new.gif) Jan. 2026: Our paper [Confounding Robust Reinforcement Learning: A Causal Approach](https://causalai.net/r132.pdf) is accepted at [Amazon Trusted AI Symposium 2026](https://amazonmeetingsandevents.com/trustedaisymposium2026)!
 - ![New!](../assets/new.gif) Dec. 2025: Our paper [Confounding Robust Continuous Control via Automatic Reward Shaping](https://openreview.net/forum?id=ZFtjCJqEQf) is accepted at AAMAS 2026!
 - Oct. 2025: I have been selected as a "Top Reviewer" (8%, 1958/24429) for NeurIPS 2025!
 - Sept. 2025: Our paper [Confounding Robust Reinforcement Learning: A Causal Approach](https://causalai.net/r132.pdf) is accepted at NeurIPS 2025!
