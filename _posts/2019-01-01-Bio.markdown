@@ -7,9 +7,9 @@ categories: Bio
 
 I am a Ph.D. candidate in the [Causal Artificial Intelligence Lab][clab] at [Columbia University][col], working with [Prof. Elias Bareinboim][elias]. I also work closely with [Prof. Junzhe Zhang][jz]. Previously, during my Master's studies at [Brown University][brown], I was fortunate enough to work with [Prof. Michael Littman][litt].
   
-My research interest lies in the intersection of causal inference and reinforcement learning, especially in how to build a causally aligned, generalizable, and sample-efficient agent.
+My research interest lies in the intersection of causal inference and reinforcement learning, especially in how to build a trusted, generalizable, and sample-efficient agent.
 
-In the era of large language models, I believe a causally aligned agentic system is more important than ever. Beyond metric numbers, there are still many underexplored territories where classic problems like reward hacking, safety, alignment, and agent explainability/interpretability emerge again during RL post-training for LLM practitioners. My recent interest is in designing practical and scalable causal tools to mitigate those problems in language model training/testing.
+In the era of large foundational models, I believe a causally aligned agentic system is more important than ever. Beyond metric numbers, there are still many underexplored territories where classic problems like reward hacking, safety, alignment, and agent explainability/interpretability emerge again. My recent interest is in designing practical and scalable causal tools to mitigate those problems in language models, robotics and agentic systems.
 
 <span style="color:#B45309;font-weight:600">Feel free to contact me if you are interested in working on causal reinforcement learning!</span>  
 <!-- <span style="color:#B45309;font-weight:600">I'm also actively looking for Summer 2026 research internships!</span> -->
