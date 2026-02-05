@@ -18,11 +18,11 @@
     <!-- End Google Tag Manager (noscript) -->
     <main class="container">
       <section class="about">
+        <p class="tagline">{{ site.plainwhite.tagline }}</p>
+        <a href="/"><img src="{{ '/assets/portfolio.png' | relative_url }}" alt="{{ site.plainwhite.name }}" style="border-radius: 100%; width: 100%; height: 100%; object-fit: cover;"></a>
         <h2 id="title">
           <a href="/">{{ site.plainwhite.name }}</a>
         </h2>
-        <p class="tagline">{{ site.plainwhite.tagline }}</p>
-        <a href="/"><img src="{{ '/assets/portfolio.png' | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
         <p class="mail">{{ site.plainwhite.email }}</p>
         <ul class="social">
           {%- if site.plainwhite.social_links.github -%}

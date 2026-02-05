@@ -619,7 +619,7 @@ main .about h2 {
 main .about .tagline {
   font-size: 20px;
   margin-top: 10px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   color: #aaa;
   white-space: pre-wrap;
   line-height: normal;
