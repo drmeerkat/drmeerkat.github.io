@@ -22,8 +22,8 @@ plainwhite:
     #   url: "/my-work"
     - title: CV (Jan. 2026)
       url: "/assets/resume.pdf" 
-    - title: Beyond that...
-      url: "/"
+    # - title: Beyond that...
+    #   url: "/"
 
   email: ml@cs.columbia.edu
 
