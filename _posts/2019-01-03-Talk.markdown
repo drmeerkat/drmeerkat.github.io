@@ -4,6 +4,7 @@ title:  "Talks"
 date:   2020-02-20 01:34:36 +0530
 categories: Talk
 ---
+- Feb. 2026: Causal Flow Q-Learning for Robust Offline Reinforcement Learning - Talk at ONR MURI: Foundations of Dynamic Certification for Autonomy Seminar
 - Jan. 2026: Confounding Robust Deep Reinforcement Learning: A Causal Approach - Amazon Trusted AI Symposium [[link]](https://amazonmeetingsandevents.com/trustedaisymposium2026)
 - Apr. 2025: Automatic Reward Shaping from Confounded Offline Data - Talk at NSF Causal Decision Making Seminar
 - Mar. 2025: Automatic Reward Shaping from Confounded Offline Data - Guest lecture at UCI CompSci 295, Causal Inference for Reinforcement Learning [[link]](https://ics.uci.edu/~dechter/courses/ics-295cr/2024-25_Q2_Winter/) [[video]](https://youtu.be/svf4nPW4UmM)
