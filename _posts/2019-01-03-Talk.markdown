@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Talks"
+title:  "Talks & Presentations"
 date:   2020-02-20 01:34:36 +0530
 categories: Talk
 ---
+- Apr. 2026: Causal Flow Q-Learning for Robust Offline Reinforcement Learning - Princeton Robotics Inaugural Symposium [[link]](https://robotics.princeton.edu/events/2026/princeton-robotics-inaugural-symposium)
 - Feb. 2026: Causal Flow Q-Learning for Robust Offline Reinforcement Learning - Talk at ONR MURI: Foundations of Dynamic Certification for Autonomy Seminar
 - Jan. 2026: Confounding Robust Deep Reinforcement Learning: A Causal Approach - Amazon Trusted AI Symposium [[link]](https://amazonmeetingsandevents.com/trustedaisymposium2026)
 - Apr. 2025: Automatic Reward Shaping from Confounded Offline Data - Talk at NSF Causal Decision Making Seminar

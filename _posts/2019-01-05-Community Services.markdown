@@ -9,10 +9,11 @@ categories: Service and Organization
   - The Causal Reinforcement Learning Workshop (RLC 2025) [[link]](https://sites.google.com/uci.edu/crlw2025/?authuser=1)
 - Reviewer: 
   - ICML 2025, 2026
-  - NeurIPS 2023, 2024, 2025
+  - NeurIPS 2023, 2024, 2025, 2026
   - ICLR 2024, 2025, 2026
   - AISTATS 2025, 2026
   - AAAI 2026
   - Journal of Machine Learning Research (JMLR)
   - International Journal of Robotics Research (IJRR)
+  - IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)
 <!-- - Reviewer: Master’s in Computer Science Program Admission (Columbia University), 2023. -->
