@@ -3,7 +3,7 @@ layout: post
 title: "Confounding Robust Continuous Control via Automatic Reward Shaping"
 date:   2025-10-08 23:34:36 +0530
 type: pub
-confl: "AAMAS-26"
+confl: "AAMAS 2026"
 clink: https://cyprusconferences.org/aamas2026/
 paperlink: https://openreview.net/forum?id=ZFtjCJqEQf
 # bloglink: /blog/causal-curriculum.html

@@ -3,7 +3,7 @@ layout: post
 title: "Automatic Reward Shaping from Confounded Offline Data"
 date:   2025-01-30 23:34:36 +0530
 type: pub
-confl: "ICML-25"
+confl: "ICML 2025"
 clink: https://icml.cc
 paperlink: https://openreview.net/pdf?id=Hu7hUjEMiW
 arxiv: https://arxiv.org/abs/2505.11478

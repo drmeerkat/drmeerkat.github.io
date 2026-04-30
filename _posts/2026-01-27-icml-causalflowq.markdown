@@ -3,7 +3,7 @@ layout: post
 title: "Causal Flow Q-Learning for Robust Offline Reinforcement Learning"
 date:   2026-01-28 23:34:36 +0530
 type: pub
-confl: "ICML-26"
+confl: "ICML 2026"
 # clink: https://cyprusconferences.org/aamas2026/
 arxiv: https://arxiv.org/abs/2602.02847
 # bloglink: /blog/causal-curriculum.html

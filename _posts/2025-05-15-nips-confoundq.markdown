@@ -3,7 +3,7 @@ layout: post
 title: "Confounding Robust Deep Reinforcement Learning: A Causal Approach"
 date:   2025-05-15 23:34:36 +0530
 type: pub
-confl: "NeurIPS-25"
+confl: "NeurIPS 2025"
 clink: https://nips.cc/
 paperlink: https://openreview.net/pdf?id=9fUr5iFU9j
 arxiv: https://arxiv.org/abs/2510.21110

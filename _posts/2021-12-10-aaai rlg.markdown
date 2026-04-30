@@ -3,7 +3,7 @@ layout: post
 title: "Learning Generalizable Behavior via Visual Rewrite Rules"
 date:   2021-12-10 01:34:36 +0530
 type: pub
-confl: "AAAI-22 Workshop on Reinforcement Learning in Games"
+confl: "AAAI 2022 Workshop on Reinforcement Learning in Games"
 clink: https://rlg.mlanctot.info/2022/index.html
 arxiv: https://arxiv.org/abs/2112.05218
 thumb: vrr.png

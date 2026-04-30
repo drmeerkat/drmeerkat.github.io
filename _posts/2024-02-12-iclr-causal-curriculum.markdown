@@ -3,7 +3,7 @@ layout: post
 title: "Causally Aligned Curriculum Learning"
 date:   2024-02-12 12:34:36 +0530
 type: pub
-confl: "ICLR-24"
+confl: "ICLR 2024"
 clink: https://iclr.cc/Conferences/2024
 # bib: 
 paperlink: https://openreview.net/pdf?id=hp4yOjhwTs
