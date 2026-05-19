@@ -7,6 +7,7 @@ confl: "ICML 2025"
 clink: https://icml.cc
 paperlink: https://openreview.net/pdf?id=Hu7hUjEMiW
 arxiv: https://arxiv.org/abs/2505.11478
+code: https://github.com/CausalAILab/Automatic-Reward-Shaping-From-Confounded-Offline-Data
 # bib: @inproceedings{
 # li2025automatic,
 # title={Automatic Reward Shaping from Confounded Offline Data},

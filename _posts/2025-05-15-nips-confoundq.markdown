@@ -7,6 +7,7 @@ confl: "NeurIPS 2025"
 clink: https://nips.cc/
 paperlink: https://openreview.net/pdf?id=9fUr5iFU9j
 arxiv: https://arxiv.org/abs/2510.21110
+code: https://github.com/CausalAILab/Confounding-Robust-Deep-Reinforcement-Learning
 # bib: 
 # bloglink: /blog/causal-curriculum.html
 posterlink: https://neurips.cc/media/PosterPDFs/NeurIPS%202025/119520.png?t=1762497107.1824875
