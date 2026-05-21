@@ -10,102 +10,102 @@
             <priority>1.00</priority>
         </url><url>
                 <loc>http://localhost:4000/2026/03/05/rlc-creditassignment.html</loc>
-                <lastmod>2026-03-05T21:04:36-05:00</lastmod>
+                <lastmod>2026-03-05T18:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2026/03/05/rlc-imitation.html</loc>
-                <lastmod>2026-03-05T13:04:36-05:00</lastmod>
+                <lastmod>2026-03-05T10:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2026/01/28/icml-causalflowq.html</loc>
-                <lastmod>2026-01-28T13:04:36-05:00</lastmod>
+                <lastmod>2026-01-28T10:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2025/10/08/aamas-continuousshaping-copy.html</loc>
-                <lastmod>2025-10-08T14:04:36-04:00</lastmod>
+                <lastmod>2025-10-08T11:04:36-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2025/05/15/nips-confoundq.html</loc>
-                <lastmod>2025-05-15T14:04:36-04:00</lastmod>
+                <lastmod>2025-05-15T11:04:36-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2025/01/30/icml-causal-reward-shaping-copy.html</loc>
-                <lastmod>2025-01-30T13:04:36-05:00</lastmod>
+                <lastmod>2025-01-30T10:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/blog/causal-curriculum.html</loc>
-                <lastmod>2024-07-21T16:04:36-04:00</lastmod>
+                <lastmod>2024-07-21T13:04:36-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
-                <loc>http://localhost:4000/2024/02/12/iclr-causal-curriculum.html</loc>
-                <lastmod>2024-02-12T02:04:36-05:00</lastmod>
+                <loc>http://localhost:4000/2024/02/11/iclr-causal-curriculum.html</loc>
+                <lastmod>2024-02-11T23:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2021/12/09/aaai-rlg.html</loc>
-                <lastmod>2021-12-09T15:04:36-05:00</lastmod>
+                <lastmod>2021-12-09T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2020/05/19/aaai.html</loc>
-                <lastmod>2020-05-19T16:04:36-04:00</lastmod>
+                <lastmod>2020-05-19T13:04:36-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2020/02/19/kdd.html</loc>
-                <lastmod>2020-02-19T15:04:36-05:00</lastmod>
+                <lastmod>2020-02-19T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2020/02/19/nips-reproduce.html</loc>
-                <lastmod>2020-02-19T15:04:36-05:00</lastmod>
+                <lastmod>2020-02-19T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2020/02/19/cvpr-gred.html</loc>
-                <lastmod>2020-02-19T15:04:36-05:00</lastmod>
+                <lastmod>2020-02-19T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/service/and/organization/2020/02/19/Community-Services.html</loc>
-                <lastmod>2020-02-19T15:04:36-05:00</lastmod>
+                <lastmod>2020-02-19T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/personal.html</loc>
-                <lastmod>2020-02-19T15:04:36-05:00</lastmod>
+                <lastmod>2020-02-19T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/talk/2020/02/19/Talk.html</loc>
-                <lastmod>2020-02-19T15:04:36-05:00</lastmod>
+                <lastmod>2020-02-19T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/news/2020/02/19/News.html</loc>
-                <lastmod>2020-02-19T15:04:36-05:00</lastmod>
+                <lastmod>2020-02-19T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/bio/2020/02/19/Bio.html</loc>
-                <lastmod>2020-02-19T15:04:36-05:00</lastmod>
+                <lastmod>2020-02-19T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2019/12/09/proj-pidrone.html</loc>
-                <lastmod>2019-12-09T15:04:36-05:00</lastmod>
+                <lastmod>2019-12-09T12:04:36-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url><url>
                 <loc>http://localhost:4000/2019/07/20/proj-jpeg.html</loc>
-                <lastmod>2019-07-20T16:04:36-04:00</lastmod>
+                <lastmod>2019-07-20T13:04:36-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url></urlset>
