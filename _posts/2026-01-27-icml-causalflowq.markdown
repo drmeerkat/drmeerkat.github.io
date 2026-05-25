@@ -7,7 +7,7 @@ confl: "ICML 2026"
 clink: https://icml.cc
 arxiv: https://arxiv.org/abs/2602.02847
 code: https://github.com/CausalAILab/Causal-Flow-Q-Learning-for-Robust-Offline-Reinforcement-Learning
-paperlink: https://openreview.net/forum?id=IexQEyHm2L
+paperlink: https://openreview.net/pdf?id=IexQEyHm2L
 # bloglink: /blog/causal-curriculum.html
 # posterlink: https://iclr.cc/virtual/2024/poster/18083
 thumb: flowq.png
