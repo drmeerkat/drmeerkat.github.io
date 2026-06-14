@@ -14,6 +14,7 @@ categories: Service and Organization
   - AISTATS 2025, 2026
   - AAAI 2026
   - Journal of Machine Learning Research (JMLR)
+  - Transactions on Machine Learning Research (TMLR)
   - International Journal of Robotics Research (IJRR)
   - IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)
 <!-- - Reviewer: Master’s in Computer Science Program Admission (Columbia University), 2023. -->
