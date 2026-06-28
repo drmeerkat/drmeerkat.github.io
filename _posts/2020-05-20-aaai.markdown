@@ -7,6 +7,17 @@ confl: "AAAI 2021 Student Abstract and Poster Program"
 clink: https://aaai.org/conference/aaai/aaai-21/student-abstract-and-poster-program/
 arxiv: https://arxiv.org/abs/2008.03229
 posterlink: /assets/papers/RLSSposter.png
+bibtex: |
+  @inproceedings{li2021towards,
+    title={Towards Sample Efficient Agents through Algorithmic Alignment (Student Abstract)},
+    author={Mingxuan Li and Michael L. Littman},
+    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+    volume={35},
+    number={18},
+    pages={15827--15828},
+    year={2021},
+    doi={10.1609/aaai.v35i18.17910}
+  }
 thumb: align.png
 Authors: 
     - "Mingxuan Li"

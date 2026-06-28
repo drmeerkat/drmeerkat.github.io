@@ -9,6 +9,13 @@ clink: https://rl-conference.cc
 # arxiv: https://arxiv.org/abs/2602.02847
 # bloglink: /blog/causal-curriculum.html
 # posterlink: https://iclr.cc/virtual/2024/poster/18083
+bibtex: |
+  @inproceedings{li2026counterfactual,
+    title={Counterfactual Shapley Credit Assignment},
+    author={Mingxuan Li and Kai-Zhan Lee and Elias Bareinboim},
+    booktitle={Reinforcement Learning Conference},
+    year={2026}
+  }
 thumb: credit.png
 Authors:
     - "Mingxuan Li*"

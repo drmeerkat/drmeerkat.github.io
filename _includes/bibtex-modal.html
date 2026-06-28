@@ -1,0 +1,114 @@
+<!-- Shared floating BibTeX window. Rendered once per page; populated on demand
+     when any [bibtex] button (.bibtex-btn) is clicked. -->
+<div id="bibtex-modal" class="bibtex-overlay" aria-hidden="true">
+  <div class="bibtex-dialog" role="dialog" aria-modal="true" aria-labelledby="bibtex-dialog-title">
+    <div class="bibtex-dialog-header">
+      <span id="bibtex-dialog-title" class="bibtex-dialog-title">BibTeX</span>
+      <button type="button" class="bibtex-close" aria-label="Close">&times;</button>
+    </div>
+    <pre class="bibtex-body"><code id="bibtex-content"></code></pre>
+    <div class="bibtex-actions">
+      <button type="button" class="bibtex-action" id="bibtex-copy">Copy to clipboard</button>
+      <button type="button" class="bibtex-action" id="bibtex-download">Download .bib</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var overlay = document.getElementById('bibtex-modal');
+  if (!overlay) return;
+  var contentEl = document.getElementById('bibtex-content');
+  var copyBtn = document.getElementById('bibtex-copy');
+  var downloadBtn = document.getElementById('bibtex-download');
+  var closeBtn = overlay.querySelector('.bibtex-close');
+  var lastFocused = null;
+  var currentText = '';
+  var currentFilename = 'citation.bib';
+
+  function filenameFor(bibtex) {
+    var m = bibtex.match(/@\w+\s*\{\s*([^,\s]+)/);
+    var key = m && m[1] ? m[1].replace(/[^A-Za-z0-9._-]/g, '_') : 'citation';
+    return key + '.bib';
+  }
+
+  function open(text) {
+    currentText = text;
+    currentFilename = filenameFor(text);
+    contentEl.textContent = text;
+    copyBtn.textContent = 'Copy to clipboard';
+    lastFocused = document.activeElement;
+    overlay.classList.add('is-open');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+
+  function close() {
+    overlay.classList.remove('is-open');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (lastFocused && lastFocused.focus) lastFocused.focus();
+  }
+
+  // Event delegation: works for every paper card on the page.
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest ? e.target.closest('.bibtex-btn') : null;
+    if (!btn) return;
+    e.preventDefault();
+    var src = document.getElementById(btn.getAttribute('data-bibtex-target'));
+    if (src) open(src.textContent.trim());
+  });
+
+  closeBtn.addEventListener('click', close);
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay) close();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && overlay.classList.contains('is-open')) close();
+  });
+
+  function flash(msg) {
+    var prev = 'Copy to clipboard';
+    copyBtn.textContent = msg;
+    setTimeout(function () { copyBtn.textContent = prev; }, 1500);
+  }
+
+  function legacyCopy() {
+    var ta = document.createElement('textarea');
+    ta.value = currentText;
+    ta.style.position = 'fixed';
+    ta.style.top = '-1000px';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (err) { ok = false; }
+    document.body.removeChild(ta);
+    flash(ok ? 'Copied!' : 'Press Ctrl/Cmd+C');
+  }
+
+  copyBtn.addEventListener('click', function () {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(currentText).then(function () {
+        flash('Copied!');
+      }, legacyCopy);
+    } else {
+      legacyCopy();
+    }
+  });
+
+  downloadBtn.addEventListener('click', function () {
+    var blob = new Blob([currentText], { type: 'application/x-bibtex;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = currentFilename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+  });
+})();
+</script>

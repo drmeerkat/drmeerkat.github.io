@@ -59,6 +59,9 @@
                 <a class="link-bracket" href="{{ post.code }}"> [code]</a>
               {%- when "video" -%}
                 <a class="link-bracket" href="{{ post.video }}"> [video]</a>
+              {%- when "bibtex" -%}
+                <a class="link-bracket bibtex-btn" href="javascript:void(0);" role="button" data-bibtex-target="bibtex-{{ post.url | slugify }}"> [bibtex]</a>
+                <script type="application/x-bibtex" id="bibtex-{{ post.url | slugify }}">{{ post.bibtex | strip }}</script>
             {%- endcase -%}
           {%- endfor %}
           <h5 >{{post.Note}} </h5>

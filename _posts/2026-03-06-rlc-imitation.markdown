@@ -9,6 +9,13 @@ clink: https://rl-conference.cc
 # arxiv: https://arxiv.org/abs/2602.02847
 # bloglink: /blog/causal-curriculum.html
 # posterlink: https://iclr.cc/virtual/2024/poster/18083
+bibtex: |
+  @inproceedings{tagor2026scalable,
+    title={Scalable Causal Imitation Learning},
+    author={Eylam Tagor and Mingxuan Li and Elias Bareinboim},
+    booktitle={Reinforcement Learning Conference},
+    year={2026}
+  }
 thumb: antlarge_ciqlearn_traj.png
 Authors:
     - "Eylam Tagor"

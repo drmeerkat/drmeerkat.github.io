@@ -6,6 +6,17 @@ type: pub
 confl: "AAAI 2022 Workshop on Reinforcement Learning in Games"
 clink: https://rlg.mlanctot.info/2022/index.html
 arxiv: https://arxiv.org/abs/2112.05218
+bibtex: |
+  @inproceedings{xie2022learning,
+    title={Learning Generalizable Behavior via Visual Rewrite Rules},
+    author={Yiheng Xie and Mingxuan Li and Shangqun Yu and Michael L. Littman},
+    booktitle={AAAI-22 Workshop on Reinforcement Learning in Games},
+    year={2022},
+    eprint={2112.05218},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI},
+    url={https://arxiv.org/abs/2112.05218}
+  }
 thumb: vrr.png
 Authors:
     - "Yiheng Xie*"

@@ -366,6 +366,120 @@ main {
   fill: #8fc5ff;
 }
 
+/* ---- BibTeX button + floating window ---- */
+.bibtex-btn {
+  cursor: pointer;
+}
+
+.bibtex-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.45);
+  // centre the dialog
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.bibtex-overlay.is-open {
+  display: flex;
+}
+
+.bibtex-dialog {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 640px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: "Barlow", sans-serif;
+}
+
+.bibtex-dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  border-bottom: 1px solid #eee;
+}
+
+.bibtex-dialog-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #222;
+}
+
+.bibtex-close {
+  border: none;
+  background: none;
+  font-size: 26px;
+  line-height: 1;
+  color: #888;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.bibtex-close:hover {
+  color: #0c6ed6;
+}
+
+.bibtex-body {
+  margin: 0;
+  padding: 18px;
+  overflow: auto;
+  background: #f7f8fa;
+  white-space: pre;
+  // long urls shouldn't force horizontal scroll on mobile
+  word-break: normal;
+
+  code {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #222;
+    white-space: pre;
+  }
+}
+
+.bibtex-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding: 12px 18px;
+  border-top: 1px solid #eee;
+}
+
+.bibtex-action {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: #0c6ed6;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.bibtex-action:hover {
+  background: #64afff;
+}
+
+@media screen and (max-width: $smallMobileW) {
+  .bibtex-actions {
+    flex-direction: column;
+  }
+  .bibtex-action {
+    width: 100%;
+  }
+}
+
 // .back-button:hover {
 //   background-color: rgba(219, 216, 216, 0.678); /* Green */
 //   color: white;
