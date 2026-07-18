@@ -4,8 +4,9 @@ title: "Scalable Causal Imitation Learning"
 date:   2026-03-05 23:34:36 +0530
 type: pub
 confl: "RLC 2026"
-paperlink: /assets/papers/Scalable_Causal_Imitation_Learning.pdf
+paperlink: https://openreview.net/forum?id=IXL257OIlv#discussion
 clink: https://rl-conference.cc
+code: https://github.com/CausalAILab/Scalable-Causal-Imitation-Learning
 # arxiv: https://arxiv.org/abs/2602.02847
 # bloglink: /blog/causal-curriculum.html
 # posterlink: https://iclr.cc/virtual/2024/poster/18083
