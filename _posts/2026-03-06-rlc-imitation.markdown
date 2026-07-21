@@ -2,12 +2,12 @@
 layout: post
 title: "Scalable Causal Imitation Learning"
 date:   2026-03-05 23:34:36 +0530
-type: pub
+type: pubsasdafdf
 confl: "RLC 2026"
 paperlink: https://openreview.net/forum?id=IXL257OIlv#discussion
 clink: https://rl-conference.cc
 code: https://github.com/CausalAILab/Scalable-Causal-Imitation-Learning
-# arxiv: https://arxiv.org/abs/2602.02847
+arxiv: https://arxiv.org/abs/2607.17003
 # bloglink: /blog/causal-curriculum.html
 # posterlink: https://iclr.cc/virtual/2024/poster/18083
 bibtex: |

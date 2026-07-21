@@ -6,7 +6,7 @@ type: pub
 confl: "RLC 2026"
 paperlink: https://openreview.net/forum?id=qmCAKnqN1u#discussion
 clink: https://rl-conference.cc
-# arxiv: https://arxiv.org/abs/2602.02847
+arxiv: https://arxiv.org/abs/2607.16999
 # bloglink: /blog/causal-curriculum.html
 # posterlink: https://iclr.cc/virtual/2024/poster/18083
 bibtex: |
