@@ -2,7 +2,7 @@
 layout: post
 title: "Scalable Causal Imitation Learning"
 date:   2026-03-05 23:34:36 +0530
-type: pubsasdafdf
+type: pub
 confl: "RLC 2026"
 paperlink: https://openreview.net/forum?id=IXL257OIlv#discussion
 clink: https://rl-conference.cc
