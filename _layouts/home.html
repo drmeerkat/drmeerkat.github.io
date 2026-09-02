@@ -35,10 +35,11 @@ layout: default
   {%- for post in site.posts -%}
     {%- if post.title == 'News' -%}
       <li>
-        <div class="post">
+        <div class="post news-fold is-collapsed">
           {%- if site.show_excerpts -%}
             {{ post.excerpt }}
           {%- endif -%}
+          {%- include news-fold.html -%}
         </div>
       </li>
     {%- endif -%}
@@ -47,7 +48,11 @@ layout: default
 
 <ul class="posts">
   <li>
-    <h1 id="posts-label">Selected Publications</h1>
+    <h1 id="posts-label">Selected Publications
+      {%- if site.plainwhite.social_links.gscholar %}
+      <a class="label-aside" href="https://scholar.google.com/{{ site.plainwhite.social_links.gscholar }}" title="Full publication list on Google Scholar">(full list)</a>
+      {%- endif %}
+    </h1>
   </li>
   {%- for post in site.posts -%}
     {%- if post.type == 'pub' -%}

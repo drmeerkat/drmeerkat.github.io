@@ -356,6 +356,23 @@ main {
   letter-spacing: 0.5px;
   padding-bottom: 10px;
   font-weight: bold;
+
+  // Quiet aside next to a section label, e.g. "(full list)" -> Google Scholar.
+  .label-aside {
+    margin-left: 6px;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #3f78bf; // muted blue: quiet, clearly a link, passes WCAG AA
+    text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover,
+    &:focus-visible {
+      color: $linkColor;
+    }
+  }
 }
 
 .back-button{
@@ -364,6 +381,62 @@ main {
 
 .back-button:hover{
   fill: #8fc5ff;
+}
+
+/* ---- Foldable news list (home page) ---- */
+// Number of news items shown before the "Show all news" line. The toggle
+// itself lives in _includes/news-fold.html.
+$newsVisibleCount: 6;
+
+.news-fold.is-collapsed > ul > li:nth-child(n + #{$newsVisibleCount + 1}) {
+  display: none;
+}
+
+.news-toggle {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 4px 0 4px 40px; // line up with the news text (default <ul> indent)
+  border: none;
+  background: none;
+  text-align: left;
+  font-family: inherit; // Merriweather, like the news items
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.9em;
+  color: #767676; // the section-label grey, nudged to pass WCAG AA at this size
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover,
+  &:focus-visible {
+    color: $linkColor;
+  }
+
+  .news-toggle-icon {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-left: 4px;
+    vertical-align: -1px;
+    transition: transform 0.3s;
+  }
+
+  .news-toggle-less {
+    display: none;
+  }
+}
+
+.news-fold:not(.is-collapsed) .news-toggle {
+  .news-toggle-more {
+    display: none;
+  }
+  .news-toggle-less {
+    display: inline;
+  }
+  .news-toggle-icon {
+    transform: rotate(180deg);
+  }
 }
 
 /* ---- BibTeX button + floating window ---- */

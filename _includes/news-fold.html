@@ -1,0 +1,54 @@
+<!-- "Show all news" toggle for the folded news list on the home page.
+     Pairs with .news-fold / .news-toggle in _sass/plain.scss, where the
+     number of items shown while collapsed ($newsVisibleCount) is set. -->
+<button type="button" class="news-toggle" aria-expanded="false">
+  <span class="news-toggle-more">Show all news</span>
+  <span class="news-toggle-less">Show less</span>
+  <svg class="news-toggle-icon" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
+    <path d="M2 3.5 L5 6.5 L8 3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
+<noscript>
+  <style>
+    /* Without JavaScript the toggle can't work, so show the full list. */
+    .news-fold.is-collapsed > ul > li { display: list-item !important; }
+    .news-toggle { display: none !important; }
+  </style>
+</noscript>
+<script>
+(function () {
+  var folds = document.querySelectorAll('.news-fold');
+  for (var i = 0; i < folds.length; i++) init(folds[i]);
+
+  function init(fold) {
+    var list = fold.querySelector('ul');
+    var toggle = fold.querySelector('.news-toggle');
+    if (!list || !toggle) return;
+
+    // Count the items the stylesheet hides while collapsed. If none are
+    // hidden the list is already short enough, so drop the toggle.
+    var hidden = 0;
+    for (var j = 0; j < list.children.length; j++) {
+      if (window.getComputedStyle(list.children[j]).display === 'none') hidden++;
+    }
+    if (hidden === 0) {
+      toggle.parentNode.removeChild(toggle);
+      return;
+    }
+
+    if (!list.id) list.id = 'news-list';
+    toggle.setAttribute('aria-controls', list.id);
+
+    toggle.addEventListener('click', function () {
+      var collapsed = fold.classList.toggle('is-collapsed');
+      toggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+      // Collapsing from the bottom of a long list can leave the toggle above
+      // the viewport; bring the news section back into view when that happens.
+      if (collapsed && toggle.getBoundingClientRect().top < 0) {
+        var section = fold.closest ? fold.closest('.posts') : null;
+        (section || fold).scrollIntoView({ block: 'start' });
+      }
+    });
+  }
+})();
+</script>

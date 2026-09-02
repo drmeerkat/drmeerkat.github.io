@@ -4,6 +4,7 @@ title:  "News"
 date:   2020-02-20 01:34:36 +0530
 categories: News
 ---
+<!-- - ![New!](../assets/new.gif) Sept. 2026: New paper on Counterfactual Debugging the World Model Transfer Gap is released! -->
 - ![New!](../assets/new.gif) May 2026: Two papers on imitation learning and causal credit assignment are accepted at RLC 2026!
 - ![New!](../assets/new.gif) Apr. 2026: Our paper [Causal Flow Q-Learning for Robust Offline Reinforcement Learning](https://arxiv.org/abs/2602.02847) is accepted at ICML 2026!
 - Feb. 2026: We will present our new work [Causal Flow Q-Learning for Robust Offline Reinforcement Learning](https://arxiv.org/abs/2602.02847) at the [Princeton Robotics Inaugural Symposium](https://robotics.princeton.edu/events/2026/princeton-robotics-inaugural-symposium) on April 20th 2026.

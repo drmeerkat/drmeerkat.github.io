@@ -877,6 +877,19 @@ main .about img {
   padding-bottom: 10px;
   font-weight: bold;
 }
+#posts-label .label-aside {
+  margin-left: 6px;
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #3f78bf;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+#posts-label .label-aside:hover, #posts-label .label-aside:focus-visible {
+  color: #0a59b0;
+}
 
 .back-button {
   fill: rgba(102, 176, 255, 0.8705882353);
@@ -884,6 +897,52 @@ main .about img {
 
 .back-button:hover {
   fill: #8fc5ff;
+}
+
+/* ---- Foldable news list (home page) ---- */
+.news-fold.is-collapsed > ul > li:nth-child(n+7) {
+  display: none;
+}
+
+.news-toggle {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 4px 0 4px 40px;
+  border: none;
+  background: none;
+  text-align: left;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.9em;
+  color: #767676;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.news-toggle:hover, .news-toggle:focus-visible {
+  color: #0a59b0;
+}
+.news-toggle .news-toggle-icon {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin-left: 4px;
+  vertical-align: -1px;
+  transition: transform 0.3s;
+}
+.news-toggle .news-toggle-less {
+  display: none;
+}
+
+.news-fold:not(.is-collapsed) .news-toggle .news-toggle-more {
+  display: none;
+}
+.news-fold:not(.is-collapsed) .news-toggle .news-toggle-less {
+  display: inline;
+}
+.news-fold:not(.is-collapsed) .news-toggle .news-toggle-icon {
+  transform: rotate(180deg);
 }
 
 /* ---- BibTeX button + floating window ---- */

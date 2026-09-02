@@ -107,7 +107,8 @@
   <li>
     <h1 id="posts-label">News</h1>
   </li><li>
-        <div class="post"><ul>
+        <div class="post news-fold is-collapsed"><!-- - ![New!](../assets/new.gif) Sept. 2026: New paper on Counterfactual Debugging the World Model Transfer Gap is released! -->
+<ul>
   <li><img src="../assets/new.gif" alt="New!" /> May 2026: Two papers on imitation learning and causal credit assignment are accepted at RLC 2026!</li>
   <li><img src="../assets/new.gif" alt="New!" /> Apr. 2026: Our paper <a href="https://arxiv.org/abs/2602.02847">Causal Flow Q-Learning for Robust Offline Reinforcement Learning</a> is accepted at ICML 2026!</li>
   <li>Feb. 2026: We will present our new work <a href="https://arxiv.org/abs/2602.02847">Causal Flow Q-Learning for Robust Offline Reinforcement Learning</a> at the <a href="https://robotics.princeton.edu/events/2026/princeton-robotics-inaugural-symposium">Princeton Robotics Inaugural Symposium</a> on April 20th 2026.</li>
@@ -121,12 +122,68 @@
   <li>April 2025: I am co-organizing the First Causal Reinforcement Learning Workshop at RLC 2025, please submit your work to <strong><a href="https://sites.google.com/uci.edu/crlw2025/">CRLW</a></strong>!
 <!-- - Our paper [Causally Aligned Curriculum Learning](https://openreview.net/forum?id=hp4yOjhwTs&noteId=bfEzo3VzGP) is accepted at ICLR 2024! --></li>
 </ul>
+<!-- "Show all news" toggle for the folded news list on the home page.
+     Pairs with .news-fold / .news-toggle in _sass/plain.scss, where the
+     number of items shown while collapsed ($newsVisibleCount) is set. -->
+<button type="button" class="news-toggle" aria-expanded="false">
+  <span class="news-toggle-more">Show all news</span>
+  <span class="news-toggle-less">Show less</span>
+  <svg class="news-toggle-icon" viewBox="0 0 10 10" aria-hidden="true" focusable="false">
+    <path d="M2 3.5 L5 6.5 L8 3.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
+<noscript>
+  <style>
+    /* Without JavaScript the toggle can't work, so show the full list. */
+    .news-fold.is-collapsed > ul > li { display: list-item !important; }
+    .news-toggle { display: none !important; }
+  </style>
+</noscript>
+<script>
+(function () {
+  var folds = document.querySelectorAll('.news-fold');
+  for (var i = 0; i < folds.length; i++) init(folds[i]);
+
+  function init(fold) {
+    var list = fold.querySelector('ul');
+    var toggle = fold.querySelector('.news-toggle');
+    if (!list || !toggle) return;
+
+    // Count the items the stylesheet hides while collapsed. If none are
+    // hidden the list is already short enough, so drop the toggle.
+    var hidden = 0;
+    for (var j = 0; j < list.children.length; j++) {
+      if (window.getComputedStyle(list.children[j]).display === 'none') hidden++;
+    }
+    if (hidden === 0) {
+      toggle.parentNode.removeChild(toggle);
+      return;
+    }
+
+    if (!list.id) list.id = 'news-list';
+    toggle.setAttribute('aria-controls', list.id);
+
+    toggle.addEventListener('click', function () {
+      var collapsed = fold.classList.toggle('is-collapsed');
+      toggle.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+      // Collapsing from the bottom of a long list can leave the toggle above
+      // the viewport; bring the news section back into view when that happens.
+      if (collapsed && toggle.getBoundingClientRect().top < 0) {
+        var section = fold.closest ? fold.closest('.posts') : null;
+        (section || fold).scrollIntoView({ block: 'start' });
+      }
+    });
+  }
+})();
+</script>
 </div>
       </li></ul>
 
 <ul class="posts">
   <li>
-    <h1 id="posts-label">Selected Publications</h1>
+    <h1 id="posts-label">Selected Publications
+      <a class="label-aside" href="https://scholar.google.com/citations?user=V4MEw70AAAAJ" title="Full publication list on Google Scholar">(full list)</a>
+    </h1>
   </li><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 <div class='w3-padding-small'>
     <div class="w3-row hover-shadow pub-box" id="about">
