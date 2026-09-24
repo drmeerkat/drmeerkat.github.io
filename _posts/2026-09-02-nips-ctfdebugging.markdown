@@ -17,7 +17,7 @@ bibtex: |
     author={Mingxuan Li and Kai-Zhan Lee and Michael D Dennis and Elias Bareinboim},
     booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
     year={2026},
-    url={https://openreview.net/forum?id=9fUr5iFU9j}
+    url={https://openreview.net/forum?id=5SUeNVcFWj}
   }
 thumb: ctf.png
 Authors:
