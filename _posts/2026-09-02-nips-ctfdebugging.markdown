@@ -4,7 +4,8 @@ title: "Counterfactual Debugging the World Model Transfer Gap"
 date:   2026-09-02 23:34:36 +0530
 type: pub
 confl: "NeurIPS 2026"
-paperlink: assets/papers/ctf_debugging.pdf
+paperlink: https://openreview.net/forum?id=5SUeNVcFWj
+projectlink: /debugwm.html
 # https://openreview.net/forum?id=5SUeNVcFWj#discussion
 clink: https://nips.cc/
 # code: https://github.com/CausalAILab/Scalable-Causal-Imitation-Learning
