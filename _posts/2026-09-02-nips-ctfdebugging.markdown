@@ -8,7 +8,6 @@ paperlink: https://openreview.net/forum?id=5SUeNVcFWj
 projectlink: /debugwm.html
 # https://openreview.net/forum?id=5SUeNVcFWj#discussion
 clink: https://nips.cc/
-code: https://github.com/CausalAILab/Counterfactual-Debugging-the-World-Model-Transfer-Gap
 # arxiv: https://arxiv.org/abs/2607.17003
 # bloglink: /blog/causal-curriculum.html
 # posterlink: https://iclr.cc/virtual/2024/poster/18083
