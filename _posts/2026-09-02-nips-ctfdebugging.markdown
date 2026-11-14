@@ -6,6 +6,7 @@ type: pub
 confl: "NeurIPS 2026"
 paperlink: https://openreview.net/forum?id=5SUeNVcFWj
 projectlink: /debugwm.html
+video: https://recorder-v3.slideslive.com/?share=115356&s=b391c67e-4d2c-4918-8010-9e52883c1940
 # https://openreview.net/forum?id=5SUeNVcFWj#discussion
 clink: https://nips.cc/
 # arxiv: https://arxiv.org/abs/2607.17003
